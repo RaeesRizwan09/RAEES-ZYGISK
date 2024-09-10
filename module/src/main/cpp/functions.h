@@ -17,7 +17,7 @@ bool isGodMod(void *instance)
 }
 
 void Hooks() {
-    //IL2Cpp::Il2CppAttach();
+    IL2Cpp::Il2CppAttach();
 
     //Tools::Hook((void *) (uintptr_t)IL2Cpp::Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE(""), OBFUSCATE("PlayerStatus") , OBFUSCATE("get_IsInvincibility"), 0), (void *) isGodMod, (void **) &old_godmod);
 }
