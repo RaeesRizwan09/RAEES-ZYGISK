@@ -16,7 +16,7 @@ int hGetCurrency(void *instance) {
 
 void Hooks() {
     IL2Cpp::Il2CppAttach();
-    Tools::Hook((void *) (uintptr_t)IL2Cpp::Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE(""), OBFUSCATE("WalletModel") , OBFUSCATE("GetCurrency"), 1), (void *) hGetCurrency, (void **) &GetCurrency);
+    Tools::Hook((void *) (uintptr_t)IL2Cpp::Il2CppGetMethodOffset(OBFUSCATE("Assembly-CSharp.dll"), OBFUSCATE("SYBO.Subway.Meta"), OBFUSCATE("WalletModel") , OBFUSCATE("GetCurrency"), 1), (void *) hGetCurrency, (void **) &GetCurrency);
 }
 
 #endif //ZYCHEATS_SGUYS_FUNCTIONS_H
