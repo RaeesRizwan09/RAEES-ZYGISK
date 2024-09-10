@@ -23,8 +23,8 @@
 #include "Includes/Dobby/dobby.h"
 #include "Include/Unity.h"
 #include "Vector3.h"
-#include "../ByNameModding/Tools.h"
-#include "../ByNameModding/Il2Cpp.h"
+#include "ByNameModding/Tools.h"
+#include "ByNameModding/Il2Cpp.h"
 #include "Misc.h"
 #include "hook.h"
 #include "Include/Roboto-Regular.h"
@@ -34,7 +34,7 @@
 #include "Rect.h"
 #include <fstream>
 #include <limits>
-#define GamePackageName "com.asobimo.toramonline" // define the game package name here please
+#define GamePackageName "com.package.example" // define the game package name here please
 
 
 int glHeight, glWidth;
