@@ -1,0 +1,1 @@
+D:\MDS\PRJ\Zygisk-ImGui-Menu\module\build\intermediates\cxx\Debug\6a503z5g\obj\armeabi-v7a

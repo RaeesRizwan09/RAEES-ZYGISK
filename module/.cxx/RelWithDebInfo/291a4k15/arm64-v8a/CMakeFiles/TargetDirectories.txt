@@ -1,0 +1,3 @@
+D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/RelWithDebInfo/291a4k15/arm64-v8a/CMakeFiles/EYEEYE.dir
+D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/RelWithDebInfo/291a4k15/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/RelWithDebInfo/291a4k15/arm64-v8a/CMakeFiles/rebuild_cache.dir

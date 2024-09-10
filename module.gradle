@@ -1,0 +1,9 @@
+ext {
+    moduleLibraryName = "EYEEYE"
+    magiskModuleId = "EYEEYE"
+    moduleName = "EYEEYE"
+    moduleAuthor = "EYEEYE"
+    moduleDescription = "Imgu Mod Menu Toram AUTO UPDATE"
+    moduleVersion = "v1.0"
+    moduleVersionCode = 1
+}

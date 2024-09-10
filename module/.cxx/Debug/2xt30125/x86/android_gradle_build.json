@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "D:\\MDS\\PRJ\\Zygisk-ImGui-Menu\\module\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\saput\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\MDS\\PRJ\\Zygisk-ImGui-Menu\\module\\.cxx\\Debug\\2xt30125\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\saput\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\MDS\\PRJ\\Zygisk-ImGui-Menu\\module\\.cxx\\Debug\\2xt30125\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "EYEEYE::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "EYEEYE",
+      "output": "D:\\MDS\\PRJ\\Zygisk-ImGui-Menu\\module\\build\\intermediates\\cxx\\Debug\\2xt30125\\obj\\x86\\libEYEEYE.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\saput\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\saput\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
