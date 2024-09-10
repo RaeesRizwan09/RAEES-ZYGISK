@@ -16,7 +16,7 @@ void DrawMenu()
         ImGuiTabBarFlags tab_bar_flags = ImGuiTabBarFlags_FittingPolicyResizeDown;
         if (BeginTabBar("Menu", tab_bar_flags)) {
             if (BeginTabItem(OBFUSCATE("Player Menu"))) {
-                Checkbox(OBFUSCATE("God Mode"), &cGod);
+                Checkbox(OBFUSCATE("God Mode"), &addCurrency);
                 EndTabItem();
             }
             EndTabBar();
