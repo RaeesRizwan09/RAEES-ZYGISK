@@ -18,13 +18,13 @@ jobs:
           fetch-depth: 0
 
       - name: Extract zip file
-        run: unzip Unzip.zip -d ./extracted
+        run: unzip unizipIt.zip -d ./extracted
 
       - name: Add extracted files to the repo
         run: |
           cp -r ./extracted/* ./
           rm -rf ./extracted
-          rm Unzip.zip
+          rm unizipIt.zip
           git config --local user.email "rizee7606@gmail.com"
           git config --local user.name "RaeesRizwan09"
           git add .
