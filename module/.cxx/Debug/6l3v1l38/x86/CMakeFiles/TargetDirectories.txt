@@ -1,3 +1,0 @@
-D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/Debug/6l3v1l38/x86/CMakeFiles/EYEEYE.dir
-D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/Debug/6l3v1l38/x86/CMakeFiles/edit_cache.dir
-D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/Debug/6l3v1l38/x86/CMakeFiles/rebuild_cache.dir

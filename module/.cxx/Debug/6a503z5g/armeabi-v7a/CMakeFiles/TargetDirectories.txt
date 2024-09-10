@@ -1,3 +1,0 @@
-D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/Debug/6a503z5g/armeabi-v7a/CMakeFiles/edit_cache.dir
-D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/Debug/6a503z5g/armeabi-v7a/CMakeFiles/zyCheats.dir
-D:/MDS/PRJ/Zygisk-ImGui-Menu/module/.cxx/Debug/6a503z5g/armeabi-v7a/CMakeFiles/rebuild_cache.dir
