@@ -1,0 +1,36 @@
+name: Extract Zip and Commit to Main
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  extract_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Extract zip file
+        run: unzip unzipIt.zip -d ./extracted
+
+      - name: Add extracted files to the repo
+        run: |
+          cp -r ./extracted/* ./
+          rm -rf ./extracted
+          rm unzipIt.zip
+          git config --local user.email "rizee7606@gmail.com"
+          git config --local user.name "RaeesRizwan09"
+          git add .
+          git commit -m "Extracted zip file"
+          # This is where the PAT is used for authentication
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin main
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
